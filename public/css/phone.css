@@ -1,30 +1,51 @@
-.float-right {
-    float: inherit;
+.profile img{
+    width: 270px;
+    height: 300px;
 }
-.about-text p{
-    text-align: center;
+.hero-text h1{
+    font-size: 3.5rem;
 }
-.row{
-    display: flex;
-    align-items: center;
-    /* justify-content: center; */
+.hero-text p{
+    font-size: 2rem;
 }
-#skill-content{
-    padding-left: 120px;
+.about-style .main-heading{
+    font-size: 3rem;
 }
-#skill-rows{
-    padding-left: 85px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.about-style .sub-heading{
+    font-size: 2rem;
+}
+#about-img img{
+    width: 310px;
+    height: 220px;
+}
+#about-p p{
+    font-size: 1.5rem;
+}
+.skill-style .main-heading{
+    font-size: 3rem;
+}
+.skill-style .sub-heading{
+    font-size: 2rem;
 }
 .box{
-    padding-left: 0;
-    width: 500px;
+    width: 300px;
 }
-.contact-content{
-    padding-left: 50px;
+.my-works h4{
+    font-size: 2.5rem;
 }
-.hero-text2{
-    padding-left: 40px;
+.my-works p{
+    font-size: 1.5rem;
+}
+.contact-img img{
+    width: 350px;
+    height: 390px;
+}
+.hero-text2 h4{
+    font-size: 2rem;
+}
+.hero-text2 h5{
+    font-size: 1.5rem;
+}
+.hero-text2 p{
+    font-size: 1.5rem;
 }
