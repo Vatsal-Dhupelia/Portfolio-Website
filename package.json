@@ -1,0 +1,23 @@
+{
+  "name": "node-tech-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js -e js,hbs"
+  },
+  "keywords": [],
+  "author": "vatsal",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.1.1",
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "jquery": "^3.6.0",
+    "mongoose": "^6.0.5",
+    "nodemon": "^2.0.12"
+  }
+}

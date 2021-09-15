@@ -1,0 +1,546 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+
+*{
+    font-family: "Poiret One", cursive;
+    font-weight: bold;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+li,
+a{
+    font-size: 2rem;
+}
+p{
+    font-size: 3rem;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 4.5rem;
+}
+.row{
+    margin: 0;
+}
+.navbar-style{
+    background-color: #f8f9fa;
+    box-shadow: 2px 4px 13px 1px rgba(8, 8, 8, 0.04);
+}
+#logo{
+    float: left;
+    display: initial;
+    font-weight: 600;
+    font-size: 3.5rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: #fd5c63;
+    text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
+    padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #525252;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    padding-left: 1rem;
+    font-size: 1.9rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #fd5c63;
+}
+
+/* Hero Section */
+
+.hero-text h1{
+    font-size: 5.5rem;
+    line-height: 1.5;
+    text-shadow: 5px 4px 11px rgba(0, 0, 0, 0.26);
+    letter-spacing: 1px;
+    color: #2f2f2f;
+    letter-spacing: 2px;
+    /* text-transform: uppercase; */
+}
+
+.fa {
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+  
+.fa:hover {
+    background: gray;
+    color: white;
+}
+
+.fa-linkedin {
+    background: black;
+    color: white;
+}
+.fa-facebook {
+    background: black;
+    color: white;
+}
+.fa-github {
+    background: black;
+    color: white;
+}
+  
+.fa-twitter {
+    background: black;
+    color: white;
+}
+
+#hero-head h1{
+    font-weight: bold;
+    color: #5222d0;
+}
+
+.hero-text p:nth-child(3){
+    font-weight: bold;
+    color: #fd5c63;
+    text-shadow: 5px 4px 11px rgba(0, 0, 0, 0.26);
+}
+
+.hero-text p,
+.our-services p,
+label{
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    color: #777676;
+    text-transform: capitalize;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.btn-style{
+    padding: 12px 25px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 2px solid #fff;
+    background: #ec615b;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    transition: 0.5s all;
+}
+
+.float-right {
+    float: right;
+    width: 450px;
+    height: 490px;
+}
+
+.about-style{
+    margin: 10rem 0;
+}
+
+.about-style .main-heading,
+.skill-style .main-heading,
+.contact-style .main-heading {
+    font-size: 5rem;
+    color: #fd5c63;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.about-style .sub-heading,
+.service-style .sub-heading,
+.contact-style .sub-heading {
+    font-size: 3rem;
+    letter-spacing: 3px;
+    line-height: 2;
+    color: #333;
+    font-weight: 500;
+}
+.float-left {
+    float: left;
+    width: 500px;
+    height: 300px;
+}
+.about-text p{
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+.skill1{
+    margin: 40px;
+    width: 160px;
+    height: 160px;
+    position: relative;
+}
+.skill2{
+    margin: 40px;
+    width: 160px;
+    height: 160px;
+    position: relative;
+}
+.skill3{
+    margin: 40px;
+    width: 160px;
+    height: 160px;
+    position: relative;
+}
+.skill4{
+    margin: 40px;
+    width: 160px;
+    height: 160px;
+    position: relative;
+}
+.skill5{
+    margin: 40px;
+    width: 160px;
+    height: 160px;
+    position: relative;
+}
+.skill6{
+    margin: 40px;
+    width: 160px;
+    height: 160px;
+    position: relative;
+}
+.skill7{
+    margin: 40px;
+    width: 160px;
+    height: 160px;
+    position: relative;
+}
+.skill8{
+    margin: 40px;
+    width: 160px;
+    height: 160px;
+    position: relative;
+}
+.skill9{
+    margin: 40px;
+    width: 160px;
+    height: 160px;
+    position: relative;
+}
+.skill10{
+    margin: 40px;
+    width: 160px;
+    height: 160px;
+    position: relative;
+}
+.outer{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+.inner{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+                inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+                -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+                0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+                0px 12px 10px -10px rgba( 0, 0, 0, 0.05);
+}
+
+#number1{
+    font-size: 15px;
+    font-weight: 600;
+    color: #555;
+}
+#number2{
+    font-size: 15px;
+    font-weight: 600;
+    color: #555;
+}
+#number3{
+    font-size: 15px;
+    font-weight: 600;
+    color: #555;
+}
+#number4{
+    font-size: 15px;
+    font-weight: 600;
+    color: #555;
+}
+#number5{
+    font-size: 15px;
+    font-weight: 600;
+    color: #555;
+}
+#number6{
+    font-size: 15px;
+    font-weight: 600;
+    color: #555;
+}
+#number7{
+    font-size: 15px;
+    font-weight: 600;
+    color: #555;
+}
+#number8{
+    font-size: 15px;
+    font-weight: 600;
+    color: #555;
+}
+#number9{
+    font-size: 15px;
+    font-weight: 600;
+    color: #555;
+}
+#number10{
+    font-size: 15px;
+    font-weight: 600;
+    color: #555;
+}
+
+circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    /* animation: animate 2s linear forwards; */
+}
+.skill1 circle{
+    animation: animate1 2s linear forwards;
+
+}
+.skill2 circle{
+    animation: animate2 2s linear forwards;
+
+}
+.skill3 circle{
+    animation: animate3 2s linear forwards;
+
+}
+.skill4 circle{
+    animation: animate4 2s linear forwards;
+
+}
+.skill5 circle{
+    animation: animate5 2s linear forwards;
+
+}
+.skill6 circle{
+    animation: animate6 2s linear forwards;
+
+}
+.skill7 circle{
+    animation: animate7 2s linear forwards;
+
+}
+.skill8 circle{
+    animation: animate8 2s linear forwards;
+
+}
+.skill9 circle{
+    animation: animate9 2s linear forwards;
+
+}
+.skill10 circle{
+    animation: animate10 2s linear forwards;
+
+}
+svg{
+    position: absolute;
+    top: 0;
+}
+
+@keyframes animate1 {
+    100%{
+        stroke-dashoffset: 100;
+    }
+}
+
+@keyframes animate2 {
+    100%{
+        stroke-dashoffset: 80;
+    }
+}
+
+@keyframes animate3 {
+    100%{
+        stroke-dashoffset: 140;
+    }
+}
+
+@keyframes animate4 {
+    100%{
+        stroke-dashoffset: 170;
+    }
+}
+
+@keyframes animate5 {
+    100%{
+        stroke-dashoffset: 180;
+    }
+}
+
+@keyframes animate6 {
+    100%{
+        stroke-dashoffset: 180;
+    }
+}
+@keyframes animate7 {
+    100%{
+        stroke-dashoffset: 180;
+    }
+}
+@keyframes animate8 {
+    100%{
+        stroke-dashoffset: 140;
+    }
+}
+@keyframes animate9 {
+    100%{
+        stroke-dashoffset: 170;
+    }
+}
+@keyframes animate10 {
+    100%{
+        stroke-dashoffset: 170;
+    }
+}
+
+.box {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.box h4{
+    font-weight: bold;
+    color: #fd5c63;
+    text-shadow: 5px 4px 11px rgba(0, 0, 0, 0.26);
+    padding-top: 10px;
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
+
+.box p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 2rem;
+    letter-spacing: 1px;
+
+}
+.my-works {
+    margin-top: 75px;
+    padding-bottom: 30px;
+    padding: 0 30px;
+    min-height: 198px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0 0 25px 0 rgba(20, 27, 202, 0.17);
+}
+  
+.my-works h4 {
+    padding-top: 30px;
+    font-size: 3rem;
+    font-weight: bold;
+}
+  
+.my-works:hover h4,
+.my-works:hover p {
+    color: #fff;
+}
+.project1:hover {
+    box-shadow: 0 0 25px 0 rgba(33, 39, 221, 0.2);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #f33474 0%, #f55b2a 50%);
+}
+
+.project2:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, 0.2);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #49d0da 0%, #210c59 50%);
+}
+  
+.project3:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, 0.2);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #5035ec 0%, #44a2f6 50%);
+}
+  
+.project4:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, 0.2);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #fd7f30 0%, #fdb642 50%);
+}
+  
+.project5:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, 0.2);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #974eff 0%, #5a57fb 50%);
+}
+  
+.project6:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, 0.2);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #27b88d 0%, #22dd73 50%);
+}
+
+.hero-text2 h4{
+    font-size: 3rem;
+    line-height: 1.5;
+    text-shadow: 5px 4px 11px rgba(0, 0, 0, 0.26);
+    letter-spacing: 1px;
+    color: #5222d0;
+    font-weight: bold;
+    letter-spacing: 2px;
+    /* text-transform: uppercase; */
+}
+
+.hero-text2 h5{
+    padding-top: 20px;
+    font-size: 2rem;
+    line-height: 1.5;
+    text-shadow: 5px 4px 11px rgba(0, 0, 0, 0.26);
+    letter-spacing: 1px;
+    color: #fd5c63;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    /* text-transform: uppercase; */
+}
+
+.hero-text2 p{
+    font-size: 2rem;
+    line-height: 1.5;
+    text-shadow: 5px 4px 11px rgba(0, 0, 0, 0.26);
+    letter-spacing: 1px;
+    color: #2f2f2f;
+    letter-spacing: 2px;
+    /* text-transform: uppercase; */
+}
+footer{
+    background: black;
+    color: white;
+    padding: 13px 20px;
+}
+.center{
+    letter-spacing: 2px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.head{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+}

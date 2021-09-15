@@ -1,0 +1,30 @@
+.float-right {
+    float: inherit;
+}
+.about-text p{
+    text-align: center;
+}
+.row{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+#skill-content{
+    padding-left: 120px;
+}
+#skill-rows{
+    padding-left: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    padding-left: 0;
+    width: 500px;
+}
+.contact-content{
+    padding-left: 50px;
+}
+.hero-text2{
+    padding-left: 40px;
+}
